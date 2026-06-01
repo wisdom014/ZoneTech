@@ -1,0 +1,42 @@
+.navbar {
+ padding: 0 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ text-align: center;
+}
+
+.nav-links {
+ list-style: none;
+ display: flex;
+ gap: 8px;
+ font-size: 10px;
+}
+
+.nav-links a {
+ text-decoration: none;
+ color: #222224;
+ font-size: 9px;
+}
+
+a:active {
+ color: #F48C06;
+ text-decoration: underline;
+}
+
+.logo-text {
+ color: #2F327D;
+}
+
+.logo-text span {
+ color: #FF8A00;
+}
+.logo {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.logo-arrow {
+ width: 15px;
+ height: 15px;
+}
