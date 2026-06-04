@@ -16,14 +16,16 @@ export default function Testimonial () {
      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
     </div>
+    <div className="speaker-container">
     <div className="speakers">
-      <button className="arrow left">‹</button>
 
       <div className="testimonial-image">
+      <button className="arrow left">‹</button>
         <img
           src={hero}
           alt="customer"
         />
+      <button className="arrow right">›</button>
 
         <div className="review-card">
           <p>
@@ -46,7 +48,7 @@ export default function Testimonial () {
         </div>
       </div>
 
-      <button className="arrow right">›</button>
+    </div>
     </div>
    </div>
   </section>

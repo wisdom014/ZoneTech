@@ -178,7 +178,7 @@
    RESPONSIVE
 ==================== */
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
  .culture-container {
   flex-direction: column;
   text-align: center;
