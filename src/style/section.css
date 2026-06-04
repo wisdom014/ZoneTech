@@ -1,0 +1,205 @@
+/* ====================
+   CULTURE SECTION
+==================== */
+
+.culture-container {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 100px;
+}
+
+.culture-images {
+ flex: 1;
+ min-height: 300px;
+ position: relative;
+}
+
+.img-box {
+ position: absolute;
+ background: #e5e5e5;
+ border-radius: 15px;
+ border: 2px dashed #ccc;
+}
+
+/* Empty image placeholders */
+
+.img-1 {
+ width: 120px;
+ height: 120px;
+ top: 0;
+ left: 0;
+ transform: rotate(-5deg);
+}
+
+.img-2 {
+ width: 140px;
+ height: 140px;
+ top: 0;
+ left: 110px;
+ transform: rotate(10deg);
+}
+
+.img-3 {
+ width: 120px;
+ height: 120px;
+ top: 120px;
+ left: 40px;
+ transform: rotate(-15deg);
+}
+
+.img-4 {
+ width: 120px;
+ height: 120px;
+ top: 120px;
+ left: 170px;
+ transform: rotate(5deg);
+}
+
+.culture-content {
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-size: 12px;
+}
+
+.culture-content h2 {
+ margin-bottom: 20px;
+}
+
+.culture-content span {
+ color: orange;
+}
+
+.culture-content p {
+ color: #777;
+ line-height: 1.8;
+ margin-bottom: 15px;
+}
+
+/* ====================
+   TEAM SECTION
+==================== */
+
+.team-header {
+ text-align: center;
+ justify-content: center;
+ font-size: 11px;
+ margin-bottom: 50px;
+}
+
+.team-header h2 {
+ color: #2d318d;
+ margin-bottom: 10px;
+}
+
+.team-header p {
+ color: #777;
+}
+
+.team-grid {
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ flex-wrap: wrap;
+}
+
+.team-card {
+ background: white;
+ border: 1px solid #ddd;
+ border-radius: 15px;
+ padding: 20px;
+ width: 200px;
+ text-align: center;
+}
+
+.profile-placeholder {
+ width: 90px;
+ height: 90px;
+ border-radius: 50%;
+ background: #d9d9d9;
+ border: 2px dashed #bbb;
+ margin: 0 auto 20px;
+}
+
+.team-card h3 {
+ margin-bottom: 5px;
+}
+
+.team-card span {
+ color: #888;
+ font-size: 12px;
+}
+
+.team-card p {
+ margin-top: 15px;
+ color: #777;
+ line-height: 1.6;
+ font-size: 12px;
+}
+
+/* ====================
+   CONTROLS
+==================== */
+
+.slider-controls {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ margin-top: 40px;
+}
+
+.slider-controls button {
+ width: 35px;
+ height: 35px;
+ border: none;
+ border-radius: 50%;
+ cursor: pointer;
+}
+
+.dots {
+ display: flex;
+ gap: 8px;
+}
+
+.dots span {
+ width: 8px;
+ height: 8px;
+ background: #d5d5d5;
+ border-radius: 50%;
+}
+
+.dots .active {
+ background: orange;
+}
+
+/* ====================
+   RESPONSIVE
+==================== */
+
+@media (max-width: 900px) {
+ .culture-container {
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .culture-images {
+  width: 320px;
+  height: 280px;
+ }
+
+ .team-grid {
+  grid-template-columns: 1fr;
+ }
+}
+
+@media (max-width: 500px) {
+ .culture-images {
+  transform: scale(0.85);
+ }
+
+ .team-section {
+  padding: 60px 20px;
+ }
+}

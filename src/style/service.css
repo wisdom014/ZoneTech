@@ -45,6 +45,7 @@
  
  .service-card {
   width: 200px;
+  max-width: 270px;
   background: white;
   border-radius: 12px;
   padding: 25px 10px 15px 10px ;
