@@ -9,8 +9,8 @@
 .nav-links {
  list-style: none;
  display: flex;
- gap: 8px;
- font-size: 8.4px;
+ gap: 6.5px;
+ font-size: 8.2px;
  /* background-color: #2F327D; */
 }
 
@@ -20,7 +20,7 @@
  text-align: center;
  text-decoration: none;
  color: #222224;
- font-size: 8.4px;
+ font-size: 8.2px;
 }
 
 a:active {
