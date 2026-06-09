@@ -39,6 +39,25 @@
  padding: 50px;
  flex-wrap: wrap;
 
+ .service-head {
+   text-align: center;
+ 
+   h5 {
+    color: #2F327D;
+    font-weight: 800;
+    font-size: 13px;
+    margin-bottom: 10px;
+   }
+ 
+   span {
+    color: #FF8A00;
+   }
+ 
+   p {
+    padding: 0 5px;
+    font-size: 10px;
+   }
+  }
  .card-wrapper {
   position: relative;
  }

@@ -7,6 +7,10 @@ import "../style/service.css";
 export default function Service () {
  return (
 <section className="services">
+<div className="service-head">
+ <h5>Our <span>Services</span></h5>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+</div>
       <div className="card-wrapper">
         <div className="decor left">
          <img src={box} alt="box-decor" />

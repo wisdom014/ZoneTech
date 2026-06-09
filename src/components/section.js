@@ -5,33 +5,31 @@ function TeamSection() {
     <section className="team-section">
       {/* Top Section */}
       <div className="culture-container">
-        <div className="culture-images">
-          <div className="img-box img-1"></div>
-          <div className="img-box img-2"></div>
-          <div className="img-box img-3"></div>
-          <div className="img-box img-4"></div>
-        </div>
-
         <div className="culture-content">
           <h2>
             Culture of <span>Our Company</span>
           </h2>
 
           <p>
-            Lorem ipsum is simply dummy text of the printing and
-            typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
           </p>
 
           <p>
-            Lorem ipsum is simply dummy text of the printing and
-            typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
           </p>
+        </div>
+
+        <div className="culture-images">
+          <div className="img-box img-1"></div>
+          <div className="img-box img-2"></div>
+          <div className="img-box img-3"></div>
+          <div className="img-box img-4"></div>
         </div>
       </div>
 
       {/* Team Section */}
       <div className="team-header">
-        <h2>Our Master Brains</h2>
+        <h2>Our Master <span>Brains</span></h2>
         <p>
           Lorem ipsum is simply dummy text of the printing and
           typesetting industry.

@@ -98,19 +98,23 @@
  text-align: center;
  h5 {
   color: #2F327D;
-font-size: 12px;
+  font-weight: 800;
+font-size: 13px;
+margin-bottom: 10px;
  }
  span {
   color: #FF8A00;
  }
   p {
-font-size: 12px;
+   padding: 0 5px;
+font-size: 10px;
  }
 }
 
 .say { /* mobile */
  width: 50%;
  h6 {
+  margin-bottom: 10px;
   font-size: 13px;
   color: #2F327D;
  }
