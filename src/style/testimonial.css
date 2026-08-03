@@ -38,40 +38,40 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
   border-left: 5px solid orange;
  }
- 
+  
  .review-card p {
   font-size: 9px;
   color: #777;
   /* line-height: 1.6; */
  }
- 
+  
  .review-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
  }
- 
+  
  .review-footer h4 {
   font-size: 12px;
   margin: 0;
  }
- 
+  
  .review-footer span {
   font-size: 9px;
   color: #777;
  }
- 
+  
  .rating {
   color: orange;
   font-size: 10px;
  }
- 
+  
  .rating small {
   display: block;
   color: #999;
  }
- 
+  
  .arrow {
   position: absolute;
   border: none;
